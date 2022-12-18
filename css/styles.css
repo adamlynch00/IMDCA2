@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #000000; /* Text colour */
+    /* background-color: #c0c0c0; Page colour */
+  }
+  
+  #container {
+    width: 100%;
+  }
+  
+  .topics {
+    margin: 2rem;
+    padding-top: 6rem;
+    text-align: justify;
+  }
+  
+  .nav-link {
+    color: lightslategrey;
+  }
+  
+  .nav-link:hover {
+    color: darkblue;
+    align-items: baseline;
+  }
+  #homeName,
+  h4 {
+    color: gray;
+    font-weight: bold;
+    /*Primary color: #0275d8 this is what the Bootstrap primary colour is*/
+  }
+  #SkillsnHobbies img {
+    transition: transform 0.7s ease-in-out;
+  }
+  #SkillsnHobbies img:hover {
+    transform: rotate(360deg);
+  }
+  table td {
+    text-align: left;
+  }
+  #addBorder {
+    border: 0.2em;
+    border-style: solid;
+    border-color: gray;
+  }
+  
+  
+  
